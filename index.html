@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>teste de ciencias</title>
+  
+  <style>
+    h1 {
+      color: #0016FF;
+      text-align: center;
+      width: 100%;
+      box-sizing: border-box;
+      border: 2px solid gray;
+      background-color: gray;
+    }
+    
+    p {
+      color: white;
+    }
+    
+    h3 {
+      color: white;
+      text-align: center;
+    }
+    
+    .pergunta {
+      color: white;
+    }
+    
+    .alternativas {
+      color: white;
+    }
+    
+    textarea {
+      background: gray;
+      color: white;
+      width: 100%;
+      box-sizing: border-box;
+      border: 2px solid #383C6B;
+      border-radius: 5px;
+      padding: 8px;
+      font-family: Arial, sans-serif;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(#757D81, #757D81);
+      margin: 0;
+      padding: 10px;
+    }
+    
+    button {
+      color: #041C69;
+      background: linear-gradient(#8000FF, #0066FF);
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-family: Arial, sans-serif;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+    
+    button:hover {
+      opacity: 0.8;
+    }
+    
+    .subilinhas {
+      color: #383C6B;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>🔬Jogo de ciencias🔬</h1>
+  
+  <p>
+    O jogo desenvolvido foi criado para testar suas capacidades na materia de ciencias. Então responda com calma você consegue!
+  </p>
+  
+  <h3>VAMOS COMEÇAR?</h3>
+  
+  <p class="pergunta">
+    1. Imagine que uma pessoa encosta acidentalmente a mão em uma panela muito quente e a retira rapidamente, antes mesmo de perceber conscientemente a dor.
+    Explique detalhadamente o caminho percorrido pelo estímulo no sistema nervoso e por que a retirada da mão pode acontecer antes da percepção consciente da dor.
+  </p>
+  
+  <textarea id="resposta1" rows="6"></textarea>
+  
+  <br>
+  
+  <button onclick="confirmarResposta('resposta1')">
+    confirmar
+  </button>
+  
+  <p class="pergunta">
+    2. Em uma espécie de planta, a característica semente amarela é dominante sobre semente verde. Dois indivíduos heterozigotos são cruzados.
+  </p>
+  
+  <p class="alternativas">
+    a) Quais são os possíveis genótipos dos descendentes?
+  </p>
+  
+  <textarea id="resposta2" rows="6"></textarea>
+  
+  <br>
+  
+  <button onclick="confirmarResposta('resposta2')">
+    confirmar
+  </button>
+  
+  <p class="alternativas">
+    b) Qual é a probabilidade de um descendente apresentar sementes verdes?
+  </p>
+  
+  <textarea id="resposta3" rows="6"></textarea>
+  
+  <br>
+  
+  <button onclick="confirmarResposta('resposta3')">
+    confirmar
+  </button>
+  
+  <p class="alternativas">
+    c) Explique por que um indivíduo com característica dominante não necessariamente possui dois alelos dominantes.
+  </p>
+  
+  <textarea id="resposta4" rows="6"></textarea>
+  
+  <br>
+  
+  <button onclick="confirmarResposta('resposta4')">
+    confirmar
+  </button>
+  
+  <p class="pergunta">
+    3. Em uma região onde ocorre grande desmatamento, várias árvores são retiradas para dar espaço à agricultura e à criação de animais. Com o passar do tempo, os moradores percebem mudanças no clima local, redução da quantidade de animais e plantas, aumento da erosão do solo e alterações na quantidade de água disponível nos rios. Considerando os conhecimentos sobre meio ambiente, ecossistemas e equilíbrio ecológico, qual alternativa apresenta a melhor explicação para essas mudanças?
+  </p>
+  
+  <p class="alternativas">
+    A) O desmatamento não causa alterações importantes no ambiente, pois a natureza consegue recuperar todos os recursos rapidamente.
+  </p>
+  
+  <textarea id="resposta5" rows="6"></textarea>
+  
+  <br>
+  
+  <button onclick="confirmarResposta('resposta5')">
+    confirmar
+  </button>
+  
+  <p class="alternativas">
+    B) A retirada das árvores pode alterar o equilíbrio do ecossistema, afetando o solo, a água, o clima e os seres vivos que dependem da vegetação.
+  </p>
+  
+  <textarea id="resposta6" rows="6"></textarea>
+  
+  <br>
+  
+  <button onclick="confirmarResposta('resposta6')">
+    confirmar
+  </button>
+  
+  <p class="alternativas">
+    C) A diminuição dos animais acontece somente porque eles deixam de encontrar água, sem relação com a destruição de seus habitats.
+  </p>
+  
+  <textarea id="resposta7" rows="6"></textarea>
+  
+  <br>
+  
+  <button onclick="confirmarResposta('resposta7')">
+    confirmar
+  </button>
+  
+  <p class="pergunta">
+    4. A poluição do ar é um problema ambiental que pode afetar tanto os seres vivos quanto o equilíbrio dos ecossistemas. Em grandes cidades, a emissão de gases e partículas provenientes de veículos, indústrias e queimadas pode alterar a qualidade do ar e contribuir para problemas respiratórios, mudanças climáticas e outros impactos ambientais. Considerando essa situação, qual alternativa apresenta a melhor explicação sobre uma das principais consequências da poluição atmosférica?
+  </p>
+  
+  <p class="alternativas">
+    A) A poluição do ar não interfere nos seres vivos, pois os organismos conseguem se adaptar imediatamente às mudanças na atmosfera.
+  </p>
+  
+  <textarea id="resposta8" rows="6"></textarea>
+  
+  <br>
+  
+  <button onclick="confirmarResposta('resposta8')">
+    confirmar
+  </button>
+  
+  <br>
+  
+  <h1 class="subilinhas">
+   E agora?
+  </h1>
+ 
+ <h4> Caso queira mais jogos assim entre em contato com o suporte do servidor</h4>
+ 
+ <h3>📞 Contato do servidor</h3>
+
+<p>
+  Entre em contato conosco:
+</p>
+
+<p>
+  📧 Email: <link> eduardodudu3680@gmail.com </link>
+</p>
+
+<p>
+  Telefone: (27) 99887-1142
+</p>
+  
+  <script>
+ 
+  const SUPABASE_URL = "https://vwcblqnxzfygvsurtyml.supabase.co";
+
+  const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_fod2gDqdW-o9geIl-6I6Rg_A4wEHRHl";
+  
+    function confirmarResposta(idResposta) {
+      const resposta = document.getElementById(idResposta).value;
+      
+      if (resposta.trim() === "") {
+        alert("Digite uma resposta antes de confirmar!");
+        return;
+      }
+      
+      alert("Resposta enviada!");
+    }
+  </script>
+</body>
+
+</html>
